@@ -1,0 +1,8 @@
+1. cy.contains('Women').click() -> any word contain Woman word click on it
+2.   // to print result in cypress log 
+    cy.log(RandomIndex)
+3. Cypress.on('uncaught:exception',(err,runnable)=>{
+  return false  //if run find error from system ignore it plz
+})
+4. it.skip -> doen't run this test
+5. it.only -> run only this 
